@@ -1,0 +1,42 @@
+Crear proyecto
+composer create-project --prefer-dist laravel/lumen blog
+
+Correr proyecto
+php -S localhost:8000 -t public
+
+Correr proyecto
+php artisan serve
+
+Para crear una llave de proyecto
+
+php artisan key:generate"
+Para crear las tablas
+
+$ php artisan migrate
+
+Crear un modelo
+$ php artisan make:model User
+
+Para crear un controlador, más funciones
+$  php artisan make:controller UserController --resource
+
+Creación de un middleware
+
+
+POST
+http://localhost:8000/auth-login
+GET middleware
+http://localhost:8000/api/users
+
+
+http://lumen/LEARN/lumen/blog/public/api/users
+
+Conexión con dB
+Agregar mysql a PATH
+
+
+Revisar CORS
+
+https://dev.to/robertobutti/resolve-blocked-by-cors-policy-no-access-control-allow-origin-in-laravel-kp1
+
+https://www.itsfullofstars.de/2018/11/response-for-preflight-does-not-have-http-ok-status/
